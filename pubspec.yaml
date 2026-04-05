@@ -1,0 +1,62 @@
+name: bali_bliss
+description: Bali Bliss Weddings — Luxury destination wedding planning app
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Navigation
+  go_router: ^13.2.0
+
+  # State Management
+  flutter_riverpod: ^2.5.1
+  riverpod_annotation: ^2.3.4
+
+  # HTTP & API
+  dio: ^5.4.3+1
+  flutter_secure_storage: ^9.0.0
+
+  # UI & Animations
+  google_fonts: ^6.2.1
+  flutter_animate: ^4.5.0
+  lottie: ^3.1.0
+  shimmer: ^3.0.0
+  cached_network_image: ^3.3.1
+  smooth_page_indicator: ^1.1.0
+  flutter_staggered_grid_view: ^0.7.0
+  gap: ^3.0.1
+  glass_kit: ^3.0.0
+
+  # Utils
+  intl: ^0.19.0
+  url_launcher: ^6.2.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.9
+  riverpod_generator: ^2.3.9
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: PlayfairDisplay
+      fonts:
+        - asset: assets/fonts/PlayfairDisplay-Regular.ttf
+        - asset: assets/fonts/PlayfairDisplay-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/PlayfairDisplay-Italic.ttf
+          style: italic
+        - asset: assets/fonts/PlayfairDisplay-BoldItalic.ttf
+          weight: 700
+          style: italic
+
+  assets:
+    - assets/images/
